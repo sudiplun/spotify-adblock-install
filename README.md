@@ -49,7 +49,7 @@ make
 **INSTALL**
 sudo make install
 
-looks like
+           LOOKS LIKE 
 ![rust.png](rust.png)
 
 You can integrate it with your desktop environment by creating a `.desktop` file (e.g. `spotifyadblock.desktop`) in `~/.local/share/applications`.
