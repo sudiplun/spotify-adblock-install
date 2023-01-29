@@ -28,7 +28,9 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 ```
 
 Then you can install the Spotify client:
-```sudo apt-get update && sudo apt-get install spotify-client```
+```
+sudo apt-get update && sudo apt-get install spotify-client
+```
 
 OR GO-TO
 https://www.spotify.com/us/download/linux/
@@ -37,7 +39,7 @@ https://www.spotify.com/us/download/linux/
 
 ***spotify-adblock***
 
-https://github.com/abba23/spotify-adblock
+More details on this [repo spotify-adblock](https://github.com/abba23/spotify-adblock)
 
 
 ```
@@ -47,7 +49,9 @@ make
 ```
 
 **INSTALL**
-```sudo make install```
+```
+sudo make install
+```
 
   LOOKS LIKE 
 ![rust.png](rust.png)
