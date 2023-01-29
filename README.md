@@ -3,7 +3,7 @@
 **Before installation of package**
 
 **INSTALL BUILDING PACKAGES**
-`sudo apt-get install build-essential fakeroot devscripts`
+```sudo apt-get install build-essential fakeroot devscripts```
 
 * * *
 
@@ -22,13 +22,13 @@ https://www.rust-lang.org/tools/install
 
 You will first need to configure our debian repository:
 
-`
+```
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-`
+```
 
 Then you can install the Spotify client:
-`sudo apt-get update && sudo apt-get install spotify-client`
+```sudo apt-get update && sudo apt-get install spotify-client```
 
 OR GO-TO
 https://www.spotify.com/us/download/linux/
@@ -47,7 +47,7 @@ make
 ```
 
 **INSTALL**
-`sudo make install`
+```sudo make install```
 
   LOOKS LIKE 
 ![rust.png](rust.png)
